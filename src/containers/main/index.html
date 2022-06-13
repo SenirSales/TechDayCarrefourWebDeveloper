@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Carrefour</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Context-Type" content="text/html;charset=UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="script.js" type="module"></script>
+        <script src="script.js" ></script>
+    </head>
+    <body>
+        <div class="row" id="linha01">
+            <div class="colBorderOn col-xs-2">
+                <img src="../../../src/assets/images/logo-carrefour-site.png" alt="Promoção4" class="logo4"> 
+            </div>
+            <div class="colBorderOn col-xs-5">
+                <form>
+                    <div class="colBorderOff col-xs-2">
+                        <label>CEP: </label>
+                    </div>
+                    <div class="colBorderOff col-xs-5">
+                        <input type="text" class="form-control" id="txtCep" name="txtCep" value="45051240">
+                    </div>
+                    <div class="colBorderOff col-xs-5">
+                        <input type="button" id="bntCep" name="bntCep" onclick="localizaCep()" value="Confirme"></input>
+                    </div>
+   
+                </form>
+            </div>
+            <div class="colBorderOn col-xs-5">
+                <label>Escolha a loja:</label>
+                <select id="selectStore" onchange="localizaStore()" name="selectStore"  size="1"></select>
+                <br>
+                <label>Escolha o produto:</label>
+                <select id="selectProd" onchange="localizaProduto()" name="selectProd"  size="1"></select>
+            </div>
+        </div>
+        <div class="row" id="linha02">
+            <div class="col-sm-3">
+                
+            </div>
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label  id="itemName" name="itemName" value=""></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label  id="measurementUnit" name="measurementUnit" value=""></label>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </body>
+</html>

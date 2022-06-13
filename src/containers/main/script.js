@@ -78,6 +78,17 @@ async function localizaProduto() {
         produtos = await getDataCatch(fs);
         produto = getProdutoByCode(selectProd.value);
         erro = `Erro ao selecionar produtos ${ selectProd.value }, da loja: ${ selectStore.value }`;
+
+        var img = new Image();
+        var imgUrl = produto[0].items[0].images[0].imageUrl;
+        // img.src = imgUrl;
+        // console.log(img)
+        // imageProd.appendChild(img);
+        // imageProd2.appendChild(img);
+        // imageProd.innerHTML = img;
+        imageProd.src = imgUrl;
+        // theimage.appendChild(img);
+
         itemName.innerHTML = produto[0].items[0].name;
         measurementUnit.innerHTML = produto[0].items[0].unitMultiplier + produto[0].items[0].measurementUnit;
 //        itemName.innerHTML = produto[0].items[0].name;

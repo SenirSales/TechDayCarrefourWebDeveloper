@@ -7,7 +7,7 @@
 
 ### Leitura da Api
 > Consulta da Loja mais próxima através do CEP;<br />
-Escolha da Loja através de seleção;<br />
+Escolha de Loja através de seleção;<br />
 Escolha dos produtos através de seleção;<br />
 Apresentação dos produtos detalhado.<br />
 
@@ -31,5 +31,5 @@ npm run start
 ### <sub><b>Senir Sales</b></sub></a>
 [![Hotmail Badge](https://img.shields.io/badge/-Hotmail-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white&link=mailto:senirsales@hotmail.com)](mailto:senirsales@hotmail.com)
 <br />
-[![Linkedin Badge](https://img.shields.io/badge/-linkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/senir-sales-oliveira-960472219/)](https://www.linkedin.com/in/senir-sales-oliveira-960472219/)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/senir-sales-oliveira-960472219/)](https://www.linkedin.com/in/senir-sales-oliveira-960472219/)
 ---

@@ -10,6 +10,12 @@ html, body {
     min-height: 100%;
 }
 
+img.imageProd  {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
 img.logo {
     max-width:100%;
     height:auto;
